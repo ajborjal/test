@@ -1,0 +1,54 @@
+package com.cf.test.modelo;
+
+import java.util.Date;
+
+public class Usuario {
+
+    private Integer codUsu;
+    private String nombreUsu;
+    private String claveUsu;
+    private Date fechaUsu;
+
+    public Usuario(Integer codUsu, String nombreUsu, String claveUsu, Date fechaUsu) {
+        this.codUsu = codUsu;
+        this.nombreUsu = nombreUsu;
+        this.claveUsu = claveUsu;
+        this.fechaUsu = fechaUsu;
+    }
+
+    public Usuario() {
+
+    }
+
+    public Integer getCodUsu() {
+        return codUsu;
+    }
+
+    public void setCodUsu(Integer codUsu) {
+        this.codUsu = codUsu;
+    }
+
+    public String getNombreUsu() {
+        return nombreUsu;
+    }
+
+    public void setNombreUsu(String nombreUsu) {
+        this.nombreUsu = nombreUsu;
+    }
+
+    public String getClaveUsu() {
+        return claveUsu;
+    }
+
+    public void setClaveUsu(String claveUsu) {
+        this.claveUsu = claveUsu;
+    }
+
+    public Date getFechaUsu() {
+        return fechaUsu;
+    }
+
+    public void setFechaUsu(Date fechaUsu) {
+        this.fechaUsu = fechaUsu;
+    }
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Citas</string>
+    <string name="titulo_login">Bienvenido</string>
+    <string name="usuario_login">Usuario</string>
+    <string name="contrasena_login">Contraseña</string>
+    <string name="ingresar_login">Ingresar</string>
+    <string name="denegado_login">Acceso Denegado</string>
+
+</resources>
